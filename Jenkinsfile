@@ -14,8 +14,7 @@ pipeline
         {
             steps 
             {
-                sh '''sudo cd /var/lib/jenkins/workspace/new/
-                sudo npm install'''
+                sh '''sudo npm install'''
             }
         }
         stage('Test') 
